@@ -1,5 +1,9 @@
 # Dokumenty – Aplikacja rekrutacyjna (.NET + Vue)
 
+## Opis projektu
+
+Projekt został stworzony jako zadanie rekrutacyjne i stanowi kompletną aplikację typu client–server, umożliwiającą zarządzanie dokumentami oraz ich pozycjami. System zapewnia pełną obsługę CRUD, sortowanie, filtrowanie, paginację oraz import danych z plików CSV.
+
 ## Uruchamianie projektu
 
 #### Przed uruchomieniem projektu upewnij się, że masz zainstalowane:
@@ -14,7 +18,7 @@
 
 #### Backend
 
-Najpierw upewnij się,że w pliku **/server/appsettings.json** jest poprawny connection string służący do połączenia aplikacji z bazą danych.
+Najpierw upewnij się, że w pliku **/server/appsettings.json** jest poprawny connection string służący do połączenia aplikacji z bazą danych.
 
 Następnie folderze **/server** odpalić następujące komendy:
 
@@ -44,10 +48,6 @@ npm run dev
 ```
 
 Aplikacja frontendowa dostępna jest pod adresem: http://localhost:5173/
-
-## Opis projektu
-
-Projekt został stworzony jako zadanie rekrutacyjne i stanowi kompletną aplikację typu client–server, umożliwiającą zarządzanie dokumentami oraz ich pozycjami. System zapewnia pełną obsługę CRUD, sortowanie, filtrowanie, paginację oraz import danych z plików CSV.
 
 ## Technologie
 
