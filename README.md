@@ -8,7 +8,7 @@ Projekt został stworzony jako zadanie rekrutacyjne i stanowi kompletną aplikac
 
 #### Przed uruchomieniem projektu upewnij się, że masz zainstalowane:
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [.NET 8 SDK+](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Node.js (z npm)](https://nodejs.org/en/download)
 - [Microsoft SQL Server](https://www.microsoft.com/pl-pl/sql-server/sql-server-downloads) - SQL Server 2022 Developer
 - [Visual Studio Code](https://code.visualstudio.com/) – projekt był tworzony i uruchamiany w tym edytorze
@@ -25,6 +25,9 @@ Następnie folderze **/server** odpalić następujące komendy:
 ```bash
 #pobranie paczek
 dotnet restore
+
+# zainstalowanie Entity Framework Core Tools jeśli nie ma
+dotnet tool install --global dotnet-ef
 
 # tworzenie modelu bazy
 dotnet ef database update
